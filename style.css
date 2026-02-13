@@ -20,7 +20,6 @@ li{
 
 #mainContent{
     display: grid;
-
 }
 
 .displayProjects{
@@ -53,7 +52,19 @@ li{
 }
 
 img{
-    height: 300px;
-    width: 300px;
+    height: auto;
+    max-width: 90%;
     border: 1px solid lime;
+}
+
+.options{
+    display: grid;
+    border: 2px solid green;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.progressCard{
+    border: 2px solid indigo;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
