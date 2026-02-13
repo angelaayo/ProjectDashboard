@@ -1,0 +1,21 @@
+#sidebar, #mainContent, #generalInfo{
+    border: 2px solid green;
+}
+li{
+    list-style: none;
+}
+
+#mainContainer{
+    display: grid;
+    grid-template-columns: 1fr 4fr 2fr;
+}
+
+#mainContent{
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+}
+
+.displayProjects{
+    display: grid;
+    
+}
