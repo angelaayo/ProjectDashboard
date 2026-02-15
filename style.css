@@ -12,60 +12,54 @@ li{
 }
 
 #mainContainer{
-    text-align: center;
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     gap: 0.4rem;
 }
 
 #mainContent{
-    display: grid;
 }
 
-.displayProjects{
-    padding: 1rem;
-    border: 2px solid pink;
+#infoCard{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
 }
-.projectCard{
-    border: 2px solid blue;
-    border-radius: 0.5rem;
-    padding: 5px;
-}
 
-.greeting{
-    justify-self: self-start;
-    border: 1px solid yellow;
+#infoCard .card img{
+    width: 1.5rem;
+    height: 1.5rem;
 }
-
-.nav{
-    border: 2px solid red;
+#infoCard .card span{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border: 1px solid rgb(251, 251, 251);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.183);
+}
+#statsCard{
+    border: 2px solid yellow;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(12.5rem, auto));
+}
+#lessonsContainer{
+    border: 2px solid pink;
 }
 
-.header{
-    justify-self: self-start;
-    font-family: "Odibee Sans", sans-serif;
-    font-size: 2rem;
-}
 
-img{
-    max-width: 100%;
-    max-height: 100%;
-    /*border: 1px solid lime;*/
-}
-
-.options{
+#sidebar{
     display: grid;
-    border: 2px solid green;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-.progressCard{
-    border: 2px solid indigo;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    border: 2px solid black;
+    gap: 1rem;
+    padding-bottom: 22rem;
+    position: sticky;
+    top: 0;
+    background: white;
 }
