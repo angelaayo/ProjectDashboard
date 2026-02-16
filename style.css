@@ -18,6 +18,9 @@ li{
 }
 
 #mainContent{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 #infoCard{
@@ -40,16 +43,34 @@ li{
     gap: 0.5rem;
     border: 1px solid rgb(251, 251, 251);
     border-radius: 1rem;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.183);
 }
 #statsCard{
-    border: 2px solid yellow;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(12.5rem, auto));
+    /*border: 2px solid yellow; */
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 0rem 1rem;
+}
+.studentCard{
+    text-align: center;
+    flex-grow: 1;
+}
+.studentPer{
+    line-height: 2;
+}
+.studentInfo{
+    display: flex;
+    justify-content: space-between;
 }
 #lessonsContainer{
     border: 2px solid pink;
+}
+
+.graphImg{
+    min-width: 700px;
+    height: 16rem;
 }
 
 
