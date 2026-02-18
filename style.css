@@ -25,8 +25,8 @@ li{
 
 #infoCard{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 0.7rem;
 }
 
 #infoCard .card img{
@@ -48,10 +48,9 @@ li{
 }
 #statsCard{
     /*border: 2px solid yellow; */
-    display: flex;
+    display: grid;
     gap: 1rem;
-    flex-wrap: wrap;
-    padding: 0rem 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
 }
 .studentCard{
     text-align: center;
@@ -71,6 +70,9 @@ li{
 .graphImg{
     min-width: 700px;
     height: 16rem;
+}
+#chart_div{
+    border: 2px solid green;
 }
 
 
