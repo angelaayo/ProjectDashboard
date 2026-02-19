@@ -50,7 +50,7 @@ li{
     /*border: 2px solid yellow; */
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(16rem, auto));
 }
 .studentCard{
     text-align: center;
@@ -64,18 +64,33 @@ li{
     justify-content: space-between;
 }
 #lessonsContainer{
-    border: 2px solid pink;
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+    border: 3px solid pink;
+
 }
 
-.graphImg{
-    min-width: 700px;
-    height: 16rem;
+.textSpan{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
+
+
 #chart_div{
     border: 2px solid green;
 }
 
-
+.lessons{
+    /*border: 1px solid orange;*/
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+}
+.mainLessonsCont{
+    /*border: 3px solid green;*/
+    display: grid;
+    gap: 1rem;
+}
 #sidebar{
     display: grid;
     justify-content: center;
