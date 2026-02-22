@@ -13,7 +13,7 @@ li{
 
 #mainContainer{
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-columns: 1fr 5fr 2fr;
     gap: 0.4rem;
 }
 
@@ -102,4 +102,38 @@ li{
     top: 0;
     background: white;
 }
+.infoCard{
+    border: 1px solid orange;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.eventInfo{
+    /*border: 1px solid purple;*/
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    padding: 0 0.6rem;
+}
+.eventInfo > :nth-child(2){
+    border-left: 3px solid black;
+    padding-left: 0.3rem;
+}
+.infoCard > :nth-child(2){
+    display: flex;
+    justify-content: space-between;
+}
+.noteCard{
+    border: 1px solid black;
+}
+.notesInfo{
+    display: flex;
+    gap: 0.6rem;
+    justify-content: space-between;
+}
 
+#generalInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
