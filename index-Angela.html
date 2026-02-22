@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mainContainer">
+
+        <div>
+            <ul id="sidebar">
+                <li>
+                    <div class="sideBarText">Dashboard </div>
+                    <div><img src="view-dashboard.svg"></div>
+                </li>
+                <li>
+                    <div class="sideBarText">Schedule </div>
+                    <div><img src="clock-time-five-outline.svg"></div>
+                </li>
+                <li>
+                    <div class="sideBarText">Messages </div>
+                    <div><img src="message.svg"></div>
+                </li>
+                <li>
+                    <div class="sideBarText">Projects </div>
+                    <div><img src="notebook.svg"></div>
+                </li>
+                <li>
+                   <div class="sideBarText">Setting </div>
+                   <div><img src="cog.svg"></div>
+                </li>
+            </ul>
+        </div>
+
+        <div id="mainContent">
+            <div>Greetings, Angela</div>
+            <div>Date</div>
+            <div id="infoCard">
+                <div class="card">
+                    <span> <img src="note-multiple-outline.svg"> <img src="dots-vertical.svg"></span>
+                    <div>4</div>
+                    <div>Total classes</div>
+                </div>
+                <div class="card">
+                    <span> <img src="account-school.svg"> <img src="dots-vertical.svg"></span>
+                    <div>350</div>
+                    <div>Total Students</div>
+                </div>
+                <div class="card">
+                    <span> <img src="bookshelf.svg"> <img src="dots-vertical.svg"></span>
+                    <div>25/50</div>
+                    <div>Total Lessons</div>
+                </div>
+                <div class="card">
+                    <span> <img src="calendar-clock.svg"> <img src="dots-vertical.svg"></span>
+                    <div>15/25</div>
+                    <div>Total Hours</div>
+                </div>
+            </div>
+
+            <div id="statsCard">
+                <div class="card studentCard">
+                    <div>Students Performance</div>
+                    <div>
+                        <select id="grades" name="Grades">
+                            <option value="grades">Grades</option>
+                        </select>
+                        <select id="class" name="Class">
+                            <option value="classA">Class A</option>
+                        </select>
+                    </div>
+                    <div class="studentPer">
+                        <div class="studentInfo"><span>Jupiter Carter</span><span>99%</span></div>
+                        <div class="studentInfo"><span>Luna Mars</span><span>99%</span></div>
+                        <div class="studentInfo"><span>James Mercury</span><span>99%</span></div>
+                        <div class="studentInfo"><span>Oliver Pluto</span><span>99%</span></div>
+                        <div class="studentInfo"><span>Marcus Earth</span><span>99%</span></div>
+                    </div>
+                </div>
+                <div class="card graphCard">
+                    <div> Total attendance graph</div>
+                </div>
+            </div>
+
+            <div id="lessonsContainer" class="card">
+                <div> Teaching Lessons</div>
+                <div class="mainLessonsCont">
+                <div class="lessons">
+                    <span>image</span>
+                    <div>
+                        <div>How to train your dragon</div>
+                        <div class="textSpan"><span>1 lesson</span><span>60min</span></div>
+                    </div>
+                    <span>Science</span>
+                    <button>Reminder</button>
+                </div>
+                 <div class="lessons">
+                    <span>image</span>
+                    <div>
+                        <div>How i met your mother</div>
+                        <div class="textSpan"><span>1 lesson</span><span>60min</span></div>
+                    </div>
+                    <span>History</span>
+                    <button>Reminder</button>
+                </div>
+                 <div class="lessons">
+                    <span>image</span>
+                    <div>
+                        <div>The big bang theory</div>
+                        <div class="textSpan"><span>1 lesson</span><span>60min</span></div>
+                    </div>
+                    <span>Science</span>
+                    <button>Reminder</button>
+                </div>
+                 <div class="lessons">
+                    <span>image</span>
+                   <div>
+                        <div>How to get away with murder</div>
+                        <div class="textSpan"><span>1 lesson</span><span>60min</span></div>
+                    </div>
+                    <span>Math</span>
+                    <button>Reminder</button>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div id="generalInfo">
+            <div> Calendar</div>
+            <div>Upcoming Events</div>
+            <div>My notes</div>
+        </div>
+    </div>>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

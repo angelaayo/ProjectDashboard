@@ -52,9 +52,6 @@ li{
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(16rem, auto));
 }
-.graphCard{
-    grid-column: span 2;
-}
 .studentCard{
     text-align: center;
     flex-grow: 1;
@@ -80,12 +77,14 @@ li{
 }
 
 
-.lessons{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+#chart_div{
+    border: 2px solid green;
 }
-.lessons div:first-of-type{
-    grid-column: span 3;
+
+.lessons{
+    /*border: 1px solid orange;*/
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
 }
 .mainLessonsCont{
     /*border: 3px solid green;*/
