@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+body{
+    overflow: hidden;
+}
 
 #sidebar, #mainContent, #generalInfo{
     border: 2px solid green;
@@ -97,7 +100,6 @@ li{
     justify-content: center;
     border: 2px solid black;
     gap: 1rem;
-    padding-bottom: 22rem;
     position: sticky;
     top: 0;
     background: white;
